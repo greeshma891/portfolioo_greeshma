@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Greeshma Aitha — CSE (Data Science) student, full-stack developer and aspiring data professional." />
+  <title>Greeshma Aitha | Creative Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="cursor-glow"></div>
+
+  <header class="nav">
+    <a class="brand" href="#home">GA<span>.</span></a>
+    <button class="menu-btn" aria-label="Toggle menu"><span></span><span></span></button>
+    <nav id="navLinks">
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#skills">Skills</a>
+      <a href="#journey">Journey</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <svg class="hero-orbit" viewBox="0 0 700 700" aria-hidden="true">
+        <defs>
+          <linearGradient id="orbitGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" />
+            <stop offset="50%" />
+            <stop offset="100%" />
+          </linearGradient>
+        </defs>
+        <circle cx="350" cy="350" r="270" class="orbit orbit-a"/>
+        <circle cx="350" cy="350" r="205" class="orbit orbit-b"/>
+        <ellipse cx="350" cy="350" rx="310" ry="135" class="orbit orbit-c"/>
+        <circle cx="620" cy="350" r="8" class="orbit-dot dot-one"/>
+        <circle cx="350" cy="80" r="6" class="orbit-dot dot-two"/>
+        <circle cx="145" cy="350" r="7" class="orbit-dot dot-three"/>
+      </svg>
+
+      <div class="hero-copy reveal">
+        <p class="eyebrow">CSE • DATA SCIENCE • FULL STACK</p>
+        <h1>Greeshma<br><em>Aitha</em></h1>
+        <p class="hero-text">I build digital experiences where <span>clean interfaces</span>, real-time systems and data-driven thinking meet.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary magnetic" href="#work">Explore my work <span>↗</span></a>
+          <a class="text-link" href="#contact">Let's connect <span>→</span></a>
+        </div>
+      </div>
+
+      <div class="hero-card reveal">
+        <div class="card-top"><span>AVAILABLE</span><span>2026</span></div>
+        <div class="avatar">
+          <svg viewBox="0 0 220 220" aria-hidden="true">
+            <path d="M35 185 C45 125 80 115 110 115 C140 115 175 125 185 185" fill="none" stroke="currentColor" stroke-width="2"/>
+            <circle cx="110" cy="88" r="45" fill="none" stroke="currentColor" stroke-width="2"/>
+            <path d="M76 80 Q110 45 144 80" fill="none" stroke="currentColor" stroke-width="2"/>
+            <circle cx="94" cy="88" r="3" fill="currentColor"/>
+            <circle cx="126" cy="88" r="3" fill="currentColor"/>
+            <path d="M96 108 Q110 117 124 108" fill="none" stroke="currentColor" stroke-width="2"/>
+          </svg>
+        </div>
+        <p>Developer / Builder</p>
+        <strong>React · Node · Python</strong>
+      </div>
+
+      <div class="scroll-mark">SCROLL <span>↓</span></div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="section-label reveal">01 / ABOUT</div>
+      <div class="about-grid">
+        <div class="about-title reveal">
+          <p class="eyebrow">WHO I AM</p>
+          <h2>Curious mind.<br><span>Builder's energy.</span></h2>
+        </div>
+        <div class="about-text reveal">
+          <p>I'm a B.Tech CSE (Data Science) student at TKR College of Engineering & Technology with a CGPA of 8.64.</p>
+          <p>I enjoy turning ideas into responsive web products, learning full-stack engineering, and exploring the connection between software and data.</p>
+          <div class="stats">
+            <div><strong>8.64</strong><small>CGPA</small></div>
+            <div><strong>03+</strong><small>PROJECTS</small></div>
+            <div><strong>04</strong><small>CERTIFICATIONS</small></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="work section" id="work">
+      <div class="section-label reveal">02 / SELECTED WORK</div>
+      <div class="section-heading reveal">
+        <p class="eyebrow">PROJECTS</p>
+        <h2>Things I've<br><span>built.</span></h2>
+      </div>
+
+      <div class="project-list">
+        <article class="project reveal" data-project="videomeet">
+          <div class="project-number">01</div>
+          <div class="project-visual">
+            <svg viewBox="0 0 500 300" aria-hidden="true">
+              <rect x="70" y="55" width="360" height="205" rx="18" class="svg-frame"/>
+              <rect x="92" y="78" width="155" height="78" rx="10" class="svg-window"/>
+              <rect x="263" y="78" width="145" height="78" rx="10" class="svg-window"/>
+              <circle cx="170" cy="117" r="22" class="svg-circle"/>
+              <circle cx="335" cy="117" r="22" class="svg-circle"/>
+              <path d="M115 215 H385" class="svg-line"/>
+              <circle cx="215" cy="215" r="9" class="svg-accent"/>
+              <circle cx="250" cy="215" r="9" class="svg-accent"/>
+              <circle cx="285" cy="215" r="9" class="svg-accent"/>
+            </svg>
+          </div>
+          <div class="project-info">
+            <span class="tag">REAL-TIME WEB APP</span>
+            <h3>VideoMeet</h3>
+            <p>Virtual communication platform with video meetings, authentication and real-time interaction.</p>
+            <div class="tech">React.js · WebRTC · Socket.IO · JavaScript</div>
+            <a href="https://videomeetprojectfrontend.onrender.com/" target="_blank" rel="noreferrer">Live project ↗</a>
+          </div>
+        </article>
+
+        <article class="project reverse reveal" data-project="spotify">
+          <div class="project-number">02</div>
+          <div class="project-visual">
+            <svg viewBox="0 0 500 300" aria-hidden="true">
+              <circle cx="250" cy="150" r="86" class="record"/>
+              <circle cx="250" cy="150" r="31" class="record-hole"/>
+              <path d="M195 125 Q250 98 305 125 M201 150 Q250 130 299 151 M208 175 Q250 160 292 178" class="music-lines"/>
+              <path d="M250 38 V70 M250 230 V262 M138 150 H170 M330 150 H362" class="svg-line"/>
+            </svg>
+          </div>
+          <div class="project-info">
+            <span class="tag">FRONTEND EXPERIENCE</span>
+            <h3>Spotify Clone</h3>
+            <p>A responsive recreation of core Spotify interface patterns with interactive components and dynamic updates.</p>
+            <div class="tech">HTML · CSS · JavaScript</div>
+            <a href="https://github.com/greeshma891/spotify-clone" target="_blank" rel="noreferrer">GitHub repo ↗</a>
+          </div>
+        </article>
+
+        <article class="project reveal" data-project="tradex">
+          <div class="project-number">03</div>
+          <div class="project-visual">
+            <svg viewBox="0 0 500 300" aria-hidden="true">
+              <path d="M70 220 L145 165 L205 190 L280 105 L350 145 L430 60" class="chart"/>
+              <path d="M70 245 H430 M70 55 V245" class="axis"/>
+              <circle cx="145" cy="165" r="7" class="chart-dot"/>
+              <circle cx="280" cy="105" r="7" class="chart-dot"/>
+              <circle cx="430" cy="60" r="7" class="chart-dot"/>
+              <rect x="95" y="72" width="85" height="38" rx="19" class="trade-pill"/>
+              <text x="137" y="96" text-anchor="middle" class="svg-text">TRADEX</text>
+            </svg>
+          </div>
+          <div class="project-info">
+            <span class="tag">FULL-STACK PRODUCT</span>
+            <h3>TradeX</h3>
+            <p>Full-stack stock trading application designed for secure buy/sell operations and consistent transaction processing.</p>
+            <div class="tech">React.js · Node.js · Express.js · MongoDB</div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="skills section" id="skills">
+      <div class="section-label reveal">03 / TOOLKIT</div>
+      <div class="skills-grid">
+        <div class="skills-intro reveal">
+          <p class="eyebrow">MY STACK</p>
+          <h2>Tools that<br><span>turn ideas real.</span></h2>
+          <p>My current toolkit spans frontend, backend, databases and data science.</p>
+        </div>
+        <div class="skill-orbit-wrap reveal">
+          <div class="skill-orbit">
+            <span class="skill-node n1">PYTHON</span>
+            <span class="skill-node n2">REACT</span>
+            <span class="skill-node n3">NODE</span>
+            <span class="skill-node n4">MONGO</span>
+            <span class="skill-node n5">MYSQL</span>
+            <span class="skill-node n6">PANDAS</span>
+            <div class="orbit-core">BUILD<br>+<br>LEARN</div>
+          </div>
+        </div>
+      </div>
+      <div class="skill-marquee" aria-hidden="true">
+        <div>PYTHON — REACT.JS — NODE.JS — MONGODB — MYSQL — PANDAS — NUMPY — MACHINE LEARNING — HTML — CSS — JAVASCRIPT —</div>
+      </div>
+    </section>
+
+    <section class="journey section" id="journey">
+      <div class="section-label reveal">04 / JOURNEY</div>
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <span class="year">2023 — NOW</span>
+          <div><h3>B.Tech — CSE (Data Science)</h3><p>TKR College of Engineering & Technology · CGPA 8.64</p></div>
+        </div>
+        <div class="timeline-item reveal">
+          <span class="year">OCT — DEC 2025</span>
+          <div><h3>Infosys Springboard</h3><p>Pragati: Path to Future — employability, leadership and future technologies.</p></div>
+        </div>
+        <div class="timeline-item reveal">
+          <span class="year">2025</span>
+          <div><h3>Full-Stack Development</h3><p>Delta certification · Apna College</p></div>
+        </div>
+        <div class="timeline-item reveal">
+          <span class="year">2025</span>
+          <div><h3>Certifications</h3><p>Salesforce Agentforce Specialist · Oracle AI Foundations · Deloitte Data Analytics</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="contact-art">
+        <svg viewBox="0 0 700 400" aria-hidden="true">
+          <path d="M50 300 C170 50 290 350 400 120 C490 -20 570 250 650 70" class="contact-wave"/>
+          <circle cx="400" cy="120" r="14" class="contact-dot"/>
+          <circle cx="650" cy="70" r="8" class="contact-dot"/>
+        </svg>
+      </div>
+      <div class="contact-content reveal">
+        <p class="eyebrow">05 / CONTACT</p>
+        <h2>Let's build<br><span>something.</span></h2>
+        <p>Have an idea, opportunity or collaboration in mind?</p>
+        <a class="email-link" href="mailto:greeshmaaitha120@gmail.com">greeshmaaitha120@gmail.com ↗</a>
+        <div class="socials">
+          <a href="https://github.com/greeshma891/" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="#" id="linkedinLink">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>GREESHMA AITHA © 2026</span>
+    <span>DESIGNED WITH SVG + CODE</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
